@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+	<link href="css/lightbox.css" type="text/css" rel="stylesheet">
+	<link href="css/lsb.css" type="text/css" rel="stylesheet">
+	<link href="css/flexisel.css" type="text/css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Inventions Incorporated</title>
+	
+
+</head>
+<body>
+<!-- 	
+==================================================================================================================
+														SCRIPTS
+================================================================================================================== -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/lightbox.js"></script>
+	<script type="text/javascript" src="js/lsb.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+	<script>
+	function myFunction() {
+    var x = document.getElementsByClassName("show1");
+    var y = document.getElementsByClassName("hide1");
+    
+  
+    if (x[0].style.display === "none") 
+    {
+    	 for (i=0;i<10;i++){
+        x[i].style.display = "block";
+        y[i].style.display = "none";
+    	}
+        // y[0].style.display = "none";
+    	
+    }   
+    else
+    {
+    	// y[0].style.display = "block";
+    	for (i=0;i<10;i++){
+        x[i].style.display = "none";
+        y[i].style.display = "block";
+    	} 
+    }
+	
+	}
+	
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDam16Amv6pvVeExlgjRfBGWwJmoVxQVug&callback=initMap"
+    async defer></script>
+     <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 14.444546, lng: 120.9938736},
+          zoom: 13
+        });
+      }
+    </script>
+    
+	
+	
+<!-- 	
+==================================================================================================================
+													END OF SCRIPTS
+================================================================================================================== -->
+
+<!-- 	
+==================================================================================================================
+														START OF NAVBAR
+================================================================================================================== -->
+	<div id="home"></div>
+	<div class="containwidth">
+	<div class="w3-container bgcolor3">
+	<div class="jumbotron1">
+
+	<!-- ******NAV BAR******* -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<!-- *****Mobile Navbar Function**** -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle Navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="Capstone1_Barcena.html" class="navbar-brand">Inventions Inc.</a>
+			</div>
+			<div class="collapse navbar-collapse centered1" id="bs-example-navbar-collapse-1">
+				<nav>
+				<ul class="nav navbar-nav">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#news">News</a></li>
+						<li><a href="#gallery">Gallery</a></li>
+						<li><a href="#team">Team</a></li>
+						<li><a href="#contact">Contact Us</a></li>
+				</ul>
+				</nav>
+				<ul class="social1">
+						<li><a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook-square"></a></li>
+						<li><a href="https://twitter.com/" target="_blank" class="fa fa-twitter-square"></a></li>
+						<li><a href="https://www.instagram.com/?hl=en" target="_blank" class="fa fa-instagram"></a></li>
+						<li><a href="https://www.snapchat.com/" target="_blank" class="fa fa-snapchat-square"></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- End of nav -->
+<!-- 	
+==================================================================================================================
+														END OF NAVBAR
+================================================================================================================== -->
+
+<!-- 	
+==================================================================================================================
+											START OF JUMBOTRON SECTION
+================================================================================================================== -->
+
+	<!-- ****Start of Title**** -->
+	<div class="container-fluid">
+		<div class="row">						
+				<div class="col-sm-6 col-sm-offset-3">
+				<h1><span class="animation1">You </span><span class="animation2">Design, </span><span class="animation3">We </span><span class="animation4">build</span></h1>
+				<h5><span class="animation5">You can trust us</span></h5>
+				</div>
+		</div>
+	</div>
+	<!-- end of title -->
+
+	<div class="container tmargin1">
+		<div class="row hidden-xs hidden-sm hidden-md">
+			
+			<div class="col-lg-12">
+			<div class="col-lg-4 bgcolor2 image1 transition1 wgrid2 mr1">
+				<div class="hidden1">
+				<h3>Lorem Ipsum</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+				</div>
+			</div>
+			<div class="col-lg-4 bgcolor2 image2 transition1 wgrid2 mr1">
+				<div class="hidden1">
+				<h3>Lorem Ipsum</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+				</div>
+			</div>
+			<div class="col-lg-4 bgcolor2 image3 transition1 wgrid2">
+				<div class="hidden1">
+				<h3>Lorem Ipsum</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+				</div>
+			</div>
+			</div>
+		
+		</div>
+	</div>
+	</div> <!-- end of jumbotron -->
+<!-- 	
+==================================================================================================================
+											END OF JUMBOTRON SECTION
+================================================================================================================== -->
+
+<!-- 	
+==================================================================================================================
+											START OF ABOUT SECTION
+================================================================================================================== -->
+<!-- ****Start of Home**** -->
+	<div class="w3-container">
+
+
+	<div class="container-fluid paddingtest2" id="about">
+		<div class="row centered1"  style="height: 5em;">
+			<h1 style="color: orange;text-shadow: 2px 2px black;">What we do</h1>
+			<hr>		
+		</div>
+		<div class="row" style="margin-left: 1%; margin-right: 1%;">
+			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 leftalign1">
+				<div class="row">
+				<h3 style="color: orange;text-shadow: 2px 2px black;">Goals</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				.</p>
+				</div>
+				
+				<div class="row frame1">
+				<!-- *****Comment using media***** -->
+					<div class="media">
+						<div class="media-left media-middle hidden-xs">
+							<img src="http://media.immediate.co.uk/volatile/sites/3/2015/10/89790.jpg?quality=90&resize=620,413" alt="image">
+						</div>
+						<div class="media-body media-middle">
+							<h4>Mission</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							</p>	
+						</div>
+					</div>
+				<!-- end of comment media -->
+				<!-- *****Comment using media***** -->
+					<div class="media">
+						<div class="media-left media-middle hidden-xs">
+							<img src="http://blog.insyte-consulting.com/wp-content/uploads/2017/10/Dynabrade-600px.png" alt="image">
+						</div>
+						<div class="media-body media-middle">
+							<h4>Vision</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							</p>	
+						</div>
+					</div>
+				<!-- end of comment media -->
+				<!-- *****Comment using media***** -->
+					<div class="media">
+						<div class="media-left media-middle hidden-xs">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Manufacturing_equipment_171.jpg/800px-Manufacturing_equipment_171.jpg" alt="image">
+						</div>
+						<div class="media-body media-middle">
+							<h4>Future</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							</p>	
+						</div>
+					</div>
+				<!-- end of comment media -->
+				</div>
+			</div>
+			<div class="col-lg-6 centered1 hidden-md hidden-xs hidden-sm" style="top: 100px;"  >	
+  				<img class="img-responsive image4 hidden-xs" src="http://wallpaper-gallery.net/images/mythbusters-wallpaper/mythbusters-wallpaper-18.jpg" alt="image">
+  			
+			</div>
+		</div>
+	</div>
+	</div> <!-- end of w3-container -->
+<!-- end of home -->
+<!-- 	
+==================================================================================================================
+											END OF ABOUT SECTION
+================================================================================================================== -->
+
+<!-- 	
+==================================================================================================================
+											START OF NEWS SECTION
+================================================================================================================== -->
+
+<!-- ****Start of News**** -->
+	<div id="news"></div>
+	<div class="w3-container tmargin1 carnews1">
+		<div class="container-fluid">
+	 		<h1 class="centered1" style="color: orange;text-shadow: 2px 2px black">Latest News</h1>
+			<hr>
+
+    		<!-- ****Carousel**** -->
+	<div class="container-fluid tmargin1">
+
+  	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+<!-- ================================CAROUSEL NEWS1================= --> 	
+      		<div class="item well bgcolor5 active bmargin-3">
+				<div class="media show1">
+						<div class="media-left media-top hidden-xs">
+							<img src="images/proimg1.jpg" alt="adam savage">
+						</div>
+						<div class="media-body media-top">
+							<h4>News 1</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+							<button onclick="myFunction()">Show more</button>
+						</div>
+				</div>
+<!-- ================================HIDDEN NEWS1================= -->
+				<div class="container-fluid hide1">	
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="page-header">
+						<h1>News 1</h1>
+						<p>Posted by <span class="glyphicon glyphicon-user"></span> Adam Savage on <span class="glyphicon glyphicon-time"></span> 9 February 2018 10:00am</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+				<div class="col-lg-12">
+				
+					<img class="img-responsive" src="images/newsimg1.jpg">
+					
+				
+				<p class="lead">Lorem ipsum dolor sit amet</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<hr>
+				</div>
+				</div>
+				<a href="#news"><button onclick="myFunction()">Show less</button></a>	
+				</div>
+
+<!-- ================================END OF HIDDEN NEWS1================= -->				
+				
+			
+      </div>
+<!-- ================================END CAROUSEL NEWS1================= --> 
+
+<!-- ================================CAROUSEL NEWS2================= --> 	
+      		<div class="item well bgcolor5 bmargin-3">
+				<div class="media show1">
+						<div class="media-left media-top hidden-xs">
+							<img src="images/proimg2.jpg" alt="jamie hyneman">
+						</div>
+						<div class="media-body media-top">
+							<h4>News 2</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+							<button onclick="myFunction()">Show more</button>
+						</div>
+				</div>
+<!-- ================================HIDDEN NEWS2================= -->
+				<div class="container-fluid hide1">	
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="page-header">
+						<h1>News 2</h1>
+						<p>Posted by <span class="glyphicon glyphicon-user"></span> Jamie Hyneman on <span class="glyphicon glyphicon-time"></span> 10 February 2018 11:00am</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+				<div class="col-lg-12">
+			
+					<img class="img-responsive" src="images/newsimg2.jpg">
+				
+				
+				<p class="lead">Lorem ipsum dolor sit amet</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<hr>
+				</div>
+				</div>
+				<a href="#news"><button onclick="myFunction()">Show less</button></a>	
+				</div>
+
+<!-- ================================END OF HIDDEN NEWS2================= -->				
+				
+			
+      </div>
+<!-- ================================END CAROUSEL NEWS2================= --> 
+
+<!-- ================================CAROUSEL NEWS3================= --> 	
+      		<div class="item well bgcolor5 bmargin-3">
+				<div class="media show1">
+						<div class="media-left media-top hidden-xs">
+							<img src="images/proimg3.jpg" alt="Tory Belleci">
+						</div>
+						<div class="media-body media-top">
+							<h4>News 3</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+							<button onclick="myFunction()">Show more</button>
+						</div>
+				</div>
+<!-- ================================HIDDEN NEWS3================= -->
+				<div class="container-fluid hide1">	
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="page-header">
+						<h1>News 3</h1>
+						<p>Posted by <span class="glyphicon glyphicon-user"></span> Tory Belleci on <span class="glyphicon glyphicon-time"></span> 11 February 2018 12:00am</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+				<div class="col-lg-12">
+			
+					<img class="img-responsive" src="images/newsimg3.jpg">
+				
+			
+				<p class="lead">Lorem ipsum dolor sit amet.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<hr>
+				</div>
+				</div>
+				<a href="#news"><button onclick="myFunction()">Show less</button></a>	
+				</div>
+
+<!-- ================================END OF HIDDEN NEWS3================= -->				
+				
+			
+      </div>
+<!-- ================================END CAROUSEL NEWS3================= --> 
+    
+    </div> <!-- ========END OF CAROUSEL INNER========= -->
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  	</div>
+	</div>
+<!-- end of carousel -->
+	 
+	</div> <!-- end of container -->
+	</div>
+<!-- End of News -->
+<!-- 	
+==================================================================================================================
+											END OF NEWS SECTION
+================================================================================================================== -->
+
+<!-- 	
+==================================================================================================================
+											START OF GALLERY SECTION
+================================================================================================================== -->
+
+
+	<div id="gallery"></div>
+<!-- ****Start of Modal Gallery****	 -->
+	<div class="w3-container tmargin1">
+		<div class="container-fluid image-set" >
+	 		<h1 class="centered1" style="color: orange;text-shadow: 2px 2px black">Gallery</h1>
+			<hr>
+
+			<!-- ****1st row gallery**** -->
+				<div class="row lfloat tmargin-3">
+					<div class="col-lg-3 bmargin-1">
+						<a class="example-image-link" href="images/img1.jpg" data-lightbox="example-set" data-title="Lorem ipsum">
+						<img class="example-image img-responsive" src="images/img1.jpg" alt="image">
+						</a>
+					</div>
+					<div class="col-lg-3 bmargin-1">
+						<a class="example-image-link" href="images/img3.jpg" data-lightbox="example-set" data-title="Lorem ipsum">
+						<img class="example-image img-responsive" src="images/img3.jpg" alt="image">
+						</a>
+					</div>
+					<div class="col-lg-6 bmargin-1">
+						<a class="example-image-link" href="images/img2.jpg" data-lightbox="example-set" data-title="Lorem ipsum">
+						<img class="example-image img-responsive" src="images/img2.jpg" alt="image">
+						</a>
+					</div>
+				</div>
+			<!-- ****1st row gallery**** -->
+			<!-- ****2nd row gallery**** -->
+				<div class="row lfloat">
+					<div class="col-lg-6 bmargin-1">
+						<a class="example-image-link" href="images/img4.jpg" data-lightbox="example-set" data-title="Lorem ipsum">
+						<img class="example-image img-responsive" src="images/img4.jpg" alt="image">
+						</a>
+					</div>
+					<div class="col-lg-3 tmargin-3 bmargin-3">
+						<a class="example-image-link" href="https://i.ytimg.com/vi/-JsGggcQRTM/maxresdefault.jpg" data-lightbox="example-set" data-title="Lorem ipsum">
+						<img class="example-image img-responsive" src="https://i.ytimg.com/vi/-JsGggcQRTM/maxresdefault.jpg" alt="image">
+						</a>
+					</div>
+					<div class="col-lg-3 tmargin-3 bmargin-3">
+						<a class="example-image-link" href="images/img6.jpg" data-lightbox="example-set" data-title="Lorem ipsum">
+						<img class="example-image img-responsive" src="images/img6.jpg" alt="image">
+						</a>
+					</div>
+					<div class="col-lg-3 bmargin-1">
+						<a class="example-image-link" href="https://cdn.vox-cdn.com/thumbor/FlnoUw-sSrjxCr1AcIV-khtii8o=/0x60:1182x725/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/50663483/26F.0.png" data-lightbox="example-set" data-title="Lorem ipsum">
+						<img class="example-image img-responsive" src="https://cdn.vox-cdn.com/thumbor/FlnoUw-sSrjxCr1AcIV-khtii8o=/0x60:1182x725/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/50663483/26F.0.png" alt="image">
+						</a>
+					</div>
+					<div class="col-lg-3">
+						<a class="example-image-link" href="http://content.kgw.com/photo/2016/01/20/discovery%20mythbusters_1453318650838_77515_ver1.0.jpg" data-lightbox="example-set" data-title="Lorem ipsum">
+						<img class="example-image img-responsive" src="http://content.kgw.com/photo/2016/01/20/discovery%20mythbusters_1453318650838_77515_ver1.0.jpg" alt="image">
+						</a>
+					</div>
+				</div>
+			<!-- ****2nd row gallery**** -->
+			
+	 	</div>
+	</div>
+<!-- end of modal gallery -->
+
+<!-- 	
+==================================================================================================================
+											END OF GALLERY SECTION
+================================================================================================================== -->
+
+<!-- 	
+==================================================================================================================
+											START OF TEAM SECTION
+================================================================================================================== -->
+	<div id="team"></div>
+<!-- ****Start of the TEAM**** -->
+	<div class="w3-container tmargin1 teamimage1">
+		<div class="container-fluid">
+	 		<h1 class="centered1" style="color: orange;text-shadow: 2px 2px black">Meet Our Team</h1>
+			<hr>
+			<div class="col-lg-6 col-md-12 tmargin-3">
+				<!-- Start of team profile -->
+				<div class="media">
+						<div class="media-left media-top hidden-xs">
+							<img src="images/proimg1.jpg" alt="adam savage">
+						</div>
+						<div class="media-body media-top">
+							<h4>Adam Savage</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+							<ul class="profile1 lfloat">
+								<li><i class="fa fa-circle-o color1"></i>Lorem ipsum dolor sit amet, consectetur</li>
+								<li><i class="fa fa-circle-o color1"></i>Lorem ipsum dolor sit amet, consectetur</li>
+								<li><i class="fa fa-circle-o color1"></i>Lorem ipsum dolor sit amet, consectetur</li>
+								<li><i class="fa fa-circle-o color1"></i>Lorem ipsum dolor sit amet, consectetur</li>
+							</ul>
+							<ul class="social1 lfloat">
+								<li><a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook-square"></a></li>
+								<li><a href="https://twitter.com/" target="_blank" class="fa fa-twitter-square"></a></li>
+								<li><a href="https://www.instagram.com/?hl=en" target="_blank" class="fa fa-instagram"></a></li>
+								<li><a href="https://www.snapchat.com/" target="_blank" class="fa fa-snapchat-square"></a></li>
+							</ul>	
+						</div>
+				</div>
+				<!-- end of team profile -->
+			</div>
+			<div class="col-lg-6 col-md-12 tmargin-3">
+				<!-- Start of team profile -->
+				<div class="media">
+						<div class="media-left media-top hidden-xs">
+							<img src="images/proimg2.jpg" alt="jamie hyneman">
+						</div>
+						<div class="media-body media-top">
+							<h4>Jamie Hyneman</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+							<ul class="profile1 lfloat">
+								<li><i class="fa fa-circle-o color1"></i>Lorem ipsum dolor sit amet, consectetur</li>
+								<li><i class="fa fa-circle-o color1"></i>Lorem ipsum dolor sit amet, consectetur</li>
+								<li><i class="fa fa-circle-o color1"></i>Lorem ipsum dolor sit amet, consectetur</li>
+								<li><i class="fa fa-circle-o color1"></i>Lorem ipsum dolor sit amet, consectetur</li>
+							</ul>
+							<ul class="social1 lfloat">
+								<li><a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook-square"></a></li>
+								<li><a href="https://twitter.com/" target="_blank" class="fa fa-twitter-square"></a></li>
+								<li><a href="https://www.instagram.com/?hl=en" target="_blank" class="fa fa-instagram"></a></li>
+								<li><a href="https://www.snapchat.com/" target="_blank" class="fa fa-snapchat-square"></a></li>
+							</ul>	
+						</div>
+				</div>
+				<!-- end of team profile -->
+			</div>
+			<div class="col-lg-6 col-md-12 tmargin-3">
+				<!-- Start of team profile -->
+				<div class="media">
+						<div class="media-left media-top hidden-xs">
+							<img src="images/proimg3.jpg" alt="tory belleci">
+						</div>
+						<div class="media-body media-top">
+							<h4>Tory Belleci</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+							<ul class="profile1 lfloat">
+								<li><i class="fa fa-circle-o color1"></i>Lorem ipsum dolor sit amet, consectetur</li>
+								<li><i class="fa fa-circle-o color1"></i>Lorem ipsum dolor sit amet, consectetur</li>
+								<li><i class="fa fa-circle-o color1"></i>Lorem ipsum dolor sit amet, consectetur</li>
+								<li><i class="fa fa-circle-o color1"></i>Lorem ipsum dolor sit amet, consectetur</li>
+							</ul>
+							<ul class="social1 lfloat">
+								<li><a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook-square"></a></li>
+								<li><a href="https://twitter.com/" target="_blank" class="fa fa-twitter-square"></a></li>
+								<li><a href="https://www.instagram.com/?hl=en" target="_blank" class="fa fa-instagram"></a></li>
+								<li><a href="https://www.snapchat.com/" target="_blank" class="fa fa-snapchat-square"></a></li>
+							</ul>	
+						</div>
+				</div>
+				<!-- end of team profile -->
+			</div>
+			<div class="col-lg-6 col-md-12 tmargin-3">
+				<!-- Start of team profile -->
+				<div class="media">
+						<div class="media-left media-top hidden-xs">
+							<img src="images/proimg4.jpg" alt="kari byron">
+						</div>
+						<div class="media-body media-top">
+							<h4>Kari Byron</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+							<ul class="profile1 lfloat">
+								<li><i class="fa fa-circle-o color1"></i>Lorem ipsum dolor sit amet, consectetur</li>
+								<li><i class="fa fa-circle-o color1"></i>Lorem ipsum dolor sit amet, consectetur</li>
+								<li><i class="fa fa-circle-o color1"></i>Lorem ipsum dolor sit amet, consectetur</li>
+								<li><i class="fa fa-circle-o color1"></i>Lorem ipsum dolor sit amet, consectetur</li>
+							</ul>
+							<ul class="social1 lfloat">
+								<li><a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook-square"></a></li>
+								<li><a href="https://twitter.com/" target="_blank" class="fa fa-twitter-square"></a></li>
+								<li><a href="https://www.instagram.com/?hl=en" target="_blank" class="fa fa-instagram"></a></li>
+								<li><a href="https://www.snapchat.com/" target="_blank" class="fa fa-snapchat-square"></a></li>
+							</ul>	
+						</div>
+				</div>
+				<!-- end of team profile -->
+			</div>
+			<div class="col-lg-6 col-lg-offset-3 col-md-12 tmargin-3">
+				<!-- Start of team profile -->
+				<div class="media">
+						<div class="media-left media-top hidden-xs">
+							<img src="images/proimg5.jpg" alt="grant imahara">
+						</div>
+						<div class="media-body media-top">
+							<h4>Grant Imahara</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+							<ul class="profile1 lfloat">
+								<li><i class="fa fa-circle-o color1"></i>Lorem ipsum dolor sit amet, consectetur</li>
+								<li><i class="fa fa-circle-o color1"></i>Lorem ipsum dolor sit amet, consectetur</li>
+								<li><i class="fa fa-circle-o color1"></i>Lorem ipsum dolor sit amet, consectetur</li>
+								<li><i class="fa fa-circle-o color1"></i>Lorem ipsum dolor sit amet, consectetur</li>
+							</ul>
+							<ul class="social1 lfloat">
+								<li><a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook-square"></a></li>
+								<li><a href="https://twitter.com/" target="_blank" class="fa fa-twitter-square"></a></li>
+								<li><a href="https://www.instagram.com/?hl=en" target="_blank" class="fa fa-instagram"></a></li>
+								<li><a href="https://www.snapchat.com/" target="_blank" class="fa fa-snapchat-square"></a></li>
+							</ul>	
+						</div>
+				</div>
+				<!-- end of team profile -->
+			</div>
+	 	</div><!--  end of container-fluid -->
+	</div>
+<!-- end of the Team -->
+<!-- 	
+==================================================================================================================
+											END OF TEAM SECTION
+================================================================================================================== -->
+
+<!-- 	
+==================================================================================================================
+											START OF PARALLAX
+================================================================================================================== -->
+	<div class="w3-container tmargin1">
+		<div class="parallax">
+				<div class="container-fluid">
+				<div class="color1" style="margin-top: 10em;  text-shadow: 2px 2px black ;">
+					<h1>YOUR DESIGN AND YOUR IDEAS</h1>
+					<h1>INSPIRES US</h1>
+				</div>
+				</div>
+		</div>
+		
+	</div>
+<!-- 	
+==================================================================================================================
+											END OF PARALLAX
+================================================================================================================== -->
+
+<!-- 	
+==================================================================================================================
+											START OF CONTACT US SECTION
+================================================================================================================== -->
+	<div id="contact"></div>
+	<div class="w3-container contact1 tmargin1">
+		<div class="container-fluid">
+	 		<h1 class="centered1" style="color: orange;text-shadow: 2px 2px black">CONTACT US</h1>
+			<hr>
+			
+			<!-- Contact Form -->
+			<div class="container-fluid icontext tmargin1">
+					<!-- =====COL===== -->
+					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 bgcolor2 bordertest1 wgrid2 mr1 bmargin-1">
+						<div class="tmargin-1">
+						<span class="fa fa-map-marker"></span>
+						<h4>Address</h4>
+							<ul>
+								<li>123 Street</li>
+								<li>Sample City</li>
+								<li>Sample State</li>
+							</ul>
+						</div>
+					</div>
+					<!-- ==ENDCOL===== -->
+					<!-- =====COL===== -->
+					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 bgcolor2 bordertest1 wgrid2 mr2 bmargin-1">
+						<div class="tmargin-1">
+						<span class="fa fa-address-book-o"></span>
+						<h4>Contacts</h4>
+							<ul class="textcontact">
+								<li><a href="mailto:person1@email.com">person1@email.com</a></li>
+								<li><a href="mailto:person2@email.com">person2@email.com</a></li>
+								<li><a href="mailto:person3@email.com">person3@email.com</a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- ==ENDCOL===== -->
+					<!-- =====COL===== -->
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 bgcolor2 bordertest1 wgrid3 bmargin-1">
+						<div class="tmargin-1">
+						<span class="fa fa-mobile"></span>
+						<h4>Phone</h4>
+							<ul>
+								<li>111-2233</li>
+								<li>789-1234</li>
+								<li>123-4567</li>
+							</ul>
+						</div>
+					</div>
+					<!-- ==ENDCOL===== -->		
+			</div>
+			<form>
+			<div class="form-group">
+			<div class="container-fluid tmargin-1">	
+				<div class="input1">				
+				<input type="text" placeholder="&#61447; Name" class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wgrid2 mr1 bmargin-1" required="">				
+				</div>	
+				<div class="input2">
+				<input type="text" placeholder="&#xf003; Email" class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wgrid2 mr2 bmargin-1" required="">				
+				</div>	
+				<div class="input3">
+				<input type="text" placeholder="&#xf095; Phone" class="col-lg-4 col-md-4 col-sm-12 col-xs-12  wgrid3 bmargin-1" required="">				
+				</div>		
+				<textarea placeholder="&#xf0e6; Message" class="col-lg-12" required=""></textarea>
+				<button type="submit" class="btn btn-default tmargin-1">Submit Message</button>
+			</div>
+			</div>
+			</form>
+			<!-- End of Contact Form -->
+		
+			<!-- Google map -->
+			<!-- <div class="container-fluid tmargin1"> -->
+			<div class="tmargin1" id="map"></div>
+			<!-- </div> -->
+			<!-- End of Google Map -->
+		
+<!-- 	
+==================================================================================================================
+											END OF CONTACT US SECTION
+================================================================================================================== -->
+
+
+<!-- ***********************for testing****************************************************************** -->
+<!-- 	<div class="w3-container bgcolor2 bordertest1 tmargin1">
+		<div class="container-fluid">
+	 		<h1 class="centered1" style="color: orange;text-shadow: 2px 2px black">TestBox</h1>
+			<hr>
+
+			
+	 	</div>
+	</div> -->
+<!-- ***********************for testing****************************************************************** -->
+<!-- 	
+==================================================================================================================
+											START OF FOOTER
+================================================================================================================== -->
+
+	<!-- ****Footer**** -->
+	<br>
+	<br>
+	<footer class="footer1 navbar-fixed-bottom" style="background-color: grey; margin-top: 5em;">
+		<div class="container-fluid centered1 color1" >
+			Copyright &copy; Barcena 2018 <br>(For Educational Purposes Only)
+		</div>
+		</div>
+	</footer>
+	<!-- ****End of Footer**** -->
+<!-- 	
+==================================================================================================================
+											END OF FOOTER
+================================================================================================================== -->
+	</div> <!-- end of main container -->
+	</div> <!-- end of containwidth -->
+</body>
+</html>
+
